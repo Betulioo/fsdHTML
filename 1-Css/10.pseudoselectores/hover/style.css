@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+cursor: url('../../10.pseudoselectores/images/flecha.png'), auto;
+}
 
 img {
     width: 100%;
@@ -35,6 +38,7 @@ img {
 }
 .wraper{
     position: absolute;
+    transition: 2s;
 }
 .imagen:hover figcaption {
     opacity: 1;
